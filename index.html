@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Welcome to My Interactive Page</h1>
+
+  <!-- 🌙 Light/Dark Mode -->
+  <button id="toggle-theme">🌙 </button>
+
+  <!-- 🎮 Counter Game -->
+  <div class="counter">
+    <h2>Click Counter: <span id="counter">0</span></h2>
+    <button id="increase">Increase</button>
+    <button id="reset">Reset</button>
+  </div>
+
+  <!-- 📋 Form Validation -->
+  <form id="contactForm">
+    <h2>Contact Form</h2>
+    <label>Name:
+      <input type="text" id="name" />
+      <small id="nameError" class="error"></small>
+    </label>
+    <label>Email:
+      <input type="email" id="email" />
+      <small id="emailError" class="error"></small>
+    </label>
+    <label>Password:
+      <input type="password" id="password" />
+      <small id="passwordError" class="error"></small>
+    </label>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

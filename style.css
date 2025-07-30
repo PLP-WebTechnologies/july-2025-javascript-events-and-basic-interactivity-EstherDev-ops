@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: rgb(173, 197, 199);
+  color: black;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background: #1a3c5c;
+  color: white;
+}
+
+.counter {
+  margin: 20px 0;
+}
+
+form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+label {
+  margin-bottom: 15px;
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+}
